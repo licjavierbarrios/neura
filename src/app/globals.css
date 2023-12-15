@@ -16,6 +16,20 @@
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+/* desaparecer el scroll bar */
+::-webkit-scrollbar {
+  width: 1px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #000;
+  border-radius: 10px;
+}
+
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
